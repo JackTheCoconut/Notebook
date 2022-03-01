@@ -24,7 +24,7 @@
       - More Info.: [Network Jitter - Common Causes and Best Solutions](https://www.ir.com/guides/what-is-network-jitter)
 
 
-### ii. Networking <!>
+### ii. Networking 
   >Networking 係指由 coummunication channels 連埋 ge 一 set nodes (又名 devices)
  
   一個 Network ge quality 係由佢 ge **Performance**, **Reliability** 同 **Security** 去定
@@ -45,7 +45,15 @@
   3. Security  (安全性)
       
   而一個 Network 又可以分為 **Local Area Networks (LANs)**, **Metropolitan Area Networks (MANs)** 同 **Wide Area Networks (WANs)**
+  
+  1. LANs:
+      - 一個範圍入面 ge nodes 連落同一個 Network ge 叫 LAN (e.g. 一個細 office 入面 ge devices)
+  2. MANs:
+      - 可以認為同 LANs ge 定義差唔多，但係範圍比 LANs 大 (e.g. 一個 Town or 一個 Country)
+  3. WANs:
+      - 範圍上升到 World wide 咁大 
 
+[LANs 同 MANs ge 分別?](https://www.geeksforgeeks.org/difference-between-lan-and-man/)  
    
 ### iii. Type of Connections
   >最主要有 **Point-to-point** 同 **Mulitpoint** 兩種
@@ -71,4 +79,4 @@
 
 ### v. Topology
 
-### vi. C
+### vi. Protocols
