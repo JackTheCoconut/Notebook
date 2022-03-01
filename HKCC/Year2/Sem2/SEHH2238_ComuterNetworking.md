@@ -24,33 +24,39 @@
       - More Info.: [Network Jitter - Common Causes and Best Solutions](https://www.ir.com/guides/what-is-network-jitter)
 
 
-### ii. Networking 
+### ii. Networking <!>
   >Networking 係指由 coummunication channels 連埋 ge 一 set nodes (又名 devices)
  
-  一個 Network ge quality 係由佢 ge **Performance** 同 **Reliability** 去定
+  一個 Network ge quality 係由佢 ge **Performance**, **Reliability** 同 **Security** 去定
   
   1. Performance (表現)
+      - Response time (響應時間)
+      - Transmit time (傳輸時間)
       - Evaluted by [Networking Metrics](https://www.perfsonar.net/resources_metrics.html) 
       - e.g.: Throughput(流通量), Delay(延遲)
   2. Reliability (穩定性)
-      - Frequency of failure
+      - Frequency of failure (故障率)
       - Recovery time after a failure
           - Catastrophe(天災)
       - Resistant to:
           - Unauthorized access
           - Data damage (傳輸過程中 ge Data loss)
           - [Viruses](https://www.websecurity.digicert.com/zh/hk/security-topics/what-are-malware-viruses-spyware-and-cookies-and-what-differentiates-them)
+  3. Security  (安全性)
+      
+  而一個 Network 又可以分為 **Local Area Networks (LANs)**, **Metropolitan Area Networks (MANs)** 同 **Wide Area Networks (WANs)**
+
    
 ### iii. Type of Connections
   >最主要有 **Point-to-point** 同 **Mulitpoint** 兩種
 
 1. Point-to-point:
     
-    ![alt text](https://cdn.discordapp.com/attachments/684958583367925771/948295753762238505/unknown.png "Point-to-point")
+    ![Point-to-point](https://cdn.discordapp.com/attachments/684958583367925771/948295753762238505/unknown.png "Point-to-point")
 
 2. Multipoint:
     
-    ![alt text](https://cdn.discordapp.com/attachments/684958583367925771/948296856243437648/unknown.png "Multipoint")
+    ![Multipoint](https://cdn.discordapp.com/attachments/684958583367925771/948296856243437648/unknown.png "Multipoint")
 
 
 ### iv. Transmission Mode
@@ -62,3 +68,7 @@
       - 雖然係雙向，但每一次 data 淨係可以由一個 node 傳去第二個
   3. Full-duplex (全雙向)
       - 兩個 nodes 可以同時傳輪同接收 data  
+
+### v. Topology
+
+### vi. C
