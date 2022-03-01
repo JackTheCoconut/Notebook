@@ -52,3 +52,13 @@
     
     ![alt text](https://cdn.discordapp.com/attachments/684958583367925771/948296856243437648/unknown.png "Multipoint")
 
+
+### iv. Transmission Mode
+  >三種唔同 ge Data flow 模式
+
+  1. Simplex (單一)
+      - 淨係得單一 data 流向 e.g. keyboard
+  2. Half-duplex (半雙向)
+      - 雖然係雙向，但每一次 data 淨係可以由一個 node 傳去第二個
+  3. Full-duplex (全雙向)
+      - 兩個 nodes 可以同時傳輪同接收 data  
