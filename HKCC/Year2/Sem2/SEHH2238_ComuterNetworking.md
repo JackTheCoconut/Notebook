@@ -41,3 +41,14 @@
           - Data damage (傳輸過程中 ge Data loss)
           - [Viruses](https://www.websecurity.digicert.com/zh/hk/security-topics/what-are-malware-viruses-spyware-and-cookies-and-what-differentiates-them)
    
+### iii. Type of Connections
+  >最主要有 **Point-to-point** 同 **Mulitpoint** 兩種
+
+1. Point-to-point:
+    
+    ![alt text](https://cdn.discordapp.com/attachments/684958583367925771/948295753762238505/unknown.png "Point-to-point")
+
+2. Multipoint:
+    
+    ![alt text](https://cdn.discordapp.com/attachments/684958583367925771/948296856243437648/unknown.png "Multipoint")
+
