@@ -10,6 +10,14 @@
 ## Ch1 Data Communication
     
 >Data Communications 係指兩部 devices 之間交換data 
+  
+  1. [Commnication effectiveness](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#i-communication-effectiveness-%E9%80%9A%E8%A8%8A%E6%95%88%E7%8E%87)
+  2. [Networking](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#ii-networking)
+  3. [Type of connection](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#iii-type-of-connections)
+  4. [Transmission mode](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#iv-transmission-mode)
+  5. [Topology](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#v-topology)
+  6. [Protocols](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#vi-protocols)
+
     
 ### i. Communication effectiveness (通訊效率)    
   >Communication effectiveness(通訊效率) 係基於以下四個範疇作為評定
