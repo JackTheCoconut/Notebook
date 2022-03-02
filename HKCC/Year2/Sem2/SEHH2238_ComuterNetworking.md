@@ -88,18 +88,20 @@
 ### v. Topology
   >Topology 係指 nodes 之間唔同 ge 連接方法，而 nodes 之間 ge relationship 又分為 **Peer-to-peer(p2p)** or **Primary-secondary**
 
-  1. Mesh Topology 
-  *Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，其他都可以正常咁 send and receive message.*
-
-  - adv:
-    - 唔會有 traffic problem
-    - 一部機 down 左唔會影響到其他
-    - Privacy 同 security 有保障
-    - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)
-  - dis:
-    - 好貴 ($$$)
-    - 要求 device ge port 有一定 ge 數量以上
-  2. Star Topology
+  1. Mesh Topology  
+  *Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，  
+  其他都可以正常咁 send and receive message.*  
+    - adv:
+      - 唔會有 traffic problem
+      - 一部機 down 左唔會影響到其他
+      - Privacy 同 security 有保障
+      - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)
+    - dis:
+      - 好貴 ($$$)
+      - 要求 device ge port 有一定 ge 數量以上  
+  2. Star Topology  
+  *Star Toplology 係近代常用 ge 一種 Network 連接方法
+      
   3. Bus Topology
   4. Ring Topology
   5. Hybrid Topology
