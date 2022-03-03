@@ -87,6 +87,7 @@
 
 ### v. Topology
   >Topology 係指 nodes 之間唔同 ge 連接方法，而 nodes 之間 ge relationship 又分為 **Peer-to-peer(p2p)** or **Primary-secondary**
+  >以下所有 nodes = devices
   
 |                        |  Mesh  | Ring | Bus | Star |
 |:----------------------:|:------:|:----:|:---:|:----:|
@@ -130,8 +131,9 @@
        - 可以裝 ge nodes 數比較少
        - Difficult reconfiguration and fault isolation (出事嗰時比較難搵邊部機出事)
       
-  4. Ring Topology
-*Ring Topology 係將 D devices 連到成個圈咁，D singal 係單方向咁係 devices 同 devices 之間傳輸*
+  4. Ring Topology  
+*Ring Topology 係將 D devices 連到成個圈咁，D singal 係單方向咁係 devices 同 devices 之間傳輸 (靠 repeater)*  
+
   5. Hybrid Topology
   
 ### vi. Protocols
