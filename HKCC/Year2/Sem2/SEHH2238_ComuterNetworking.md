@@ -33,7 +33,7 @@
 
 
 ### ii. Networking 
-  >Networking 係指由 coummunication channels 連埋 ge 一 set nodes (又名 devices)
+  >Networking 係指由 coummunication channels 連埋 ge 一 set **nodes** (又名 **devices**)
  
   一個 Network ge quality 係由佢 ge **Performance**, **Reliability** 同 **Security** 去定
   
@@ -99,23 +99,39 @@
   *Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，  
   其他 devices 都仲可以正常咁 send and receive message.*  
   ![Mesh](https://cdn.discordapp.com/attachments/684958583367925771/948852650252841010/unknown.png)    
-    - adv:
-      - 唔會有 traffic problem
-      - 一部機 down 左唔會影響到其他
-      - Privacy 同 security 有保障
-      - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)  
-      - 對 p2p transmission 嚟講 
-    - dis:
-      - 好貴 ($$$)
-      - 要求 device ge port 有一定 ge 數量以上  
-      
+     - adv:
+        - 唔會有 traffic problem
+        - 一部機 down 左唔會影響到其他
+        - Privacy 同 security 有保障
+        - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)  
+        - 對 p2p transmission 嚟講 
+      - dis:
+        - 好貴 ($$$)
+        - 要求 device ge port 有一定 ge 數量以上  
       
   2. Star Topology  
-  *Star Toplology 係近代常用 ge 一種 Network 連接方法*
-     - adv:
-        - 
+*Star Topology 係近代常用 ge 一種 Network 連接方法*  
+*每一部 devices 都係直接連繫到 **central controller** ，而佢地之間係唔會有 direct traffic (直接連繫)*  
+![Star](https://media.discordapp.net/attachments/684958583367925771/948866270504312832/unknown.png)  
+     - adv: 
+       - Robustness (穩健性) //當有一個 nodes down 左都唔會影響到其他 nodes 
+       - 相比起 Mesh topology 平D ($$$)
+     - dis:
+       - Single point of failure //如果嗰 central controller 死左，咁就GG囉  
+       
   3. Bus Topology
+*Bus Topology 係以一條 Long cable 作為 backbone 去 connect all devices*  
+*Message 以 broadcast ge 形式去散播*  
+*無咩人用lu*
+![Bus](https://cdn.discordapp.com/attachments/684958583367925771/948868641154293760/unknown.png)
+     - adv:
+       - 易安裝
+     - dis:
+       - 可以裝 ge nodes 數比較少
+       - Difficult reconfiguration and fault isolation (出事嗰時比較難搵邊部機出事)
+      
   4. Ring Topology
+*Ring Topology 係將 D devices 連到成個圈咁，D singal 係單方向咁係 devices 同 devices 之間傳輸*
   5. Hybrid Topology
   
 ### vi. Protocols
