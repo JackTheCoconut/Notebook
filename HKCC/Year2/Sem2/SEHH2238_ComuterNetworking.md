@@ -7,8 +7,7 @@
 - [Ch3 ]
   
   
-## Ch1 Data Communication
-    
+## Ch1 Data Communication  
 >Data Communications 係指兩部 devices 之間交換data 
   
   1. [Commnication effectiveness](#i-communication-effectiveness-通訊效率)
@@ -20,7 +19,7 @@
 
     
 ### i. Communication effectiveness (通訊效率)    
-  >Communication effectiveness(通訊效率) 係基於以下四個範疇作為評定
+>Communication effectiveness(通訊效率) 係基於以下四個範疇作為評定
   1. Delivery (輸送)
       - Data 能否成功傳送到指定 ge Receiver 到
   2. Accuracy (準確率)
@@ -32,10 +31,10 @@
       - More Info.: [Network Jitter - Common Causes and Best Solutions](https://www.ir.com/guides/what-is-network-jitter)
 
 
-### ii. Networking 
-  >Networking 係指由 coummunication channels 連埋 ge 一 set **nodes** (又名 **devices**)
- 
-  一個 Network ge quality 係由佢 ge **Performance**, **Reliability** 同 **Security** 去定
+### ii. Networking  
+>Networking 係指由 coummunication channels 連埋 ge 一 set **nodes** (又名 **devices**)  
+  
+一個 Network ge quality 係由佢 ge **Performance**, **Reliability** 同 **Security** 去定
   
   1. Performance (表現)
       - Response time (響應時間)
@@ -52,7 +51,7 @@
           - [Viruses](https://www.websecurity.digicert.com/zh/hk/security-topics/what-are-malware-viruses-spyware-and-cookies-and-what-differentiates-them)
   3. Security  (安全性)
       
-  而一個 Network 又可以分為 **Local Area Networks (LANs)**, **Metropolitan Area Networks (MANs)** 同 **Wide Area Networks (WANs)**
+而一個 Network 又可以分為 **Local Area Networks (LANs)**, **Metropolitan Area Networks (MANs)** 同 **Wide Area Networks (WANs)**
   
   1. LANs:
       - 一個範圍入面 ge nodes 連落同一個 Network ge 叫 LAN (e.g. 一個細 office 入面 ge devices)
@@ -63,20 +62,18 @@
 
 [LANs 同 MANs ge 分別?](https://www.geeksforgeeks.org/difference-between-lan-and-man/)  
    
-### iii. Type of Connections
-  >最主要有 **Point-to-point** 同 **Mulitpoint** 兩種
+### iii. Type of Connections  
+>最主要有 **Point-to-point** 同 **Mulitpoint** 兩種
 
-1. Point-to-point:
-    
-    ![Point-to-point](https://cdn.discordapp.com/attachments/684958583367925771/948295753762238505/unknown.png "Point-to-point")
+1. Point-to-point:  
+![Point-to-point](https://cdn.discordapp.com/attachments/684958583367925771/948295753762238505/unknown.png "Point-to-point")
 
-2. Multipoint:
-    
-    ![Multipoint](https://cdn.discordapp.com/attachments/684958583367925771/948296856243437648/unknown.png "Multipoint")
+2. Multipoint:  
+![Multipoint](https://cdn.discordapp.com/attachments/684958583367925771/948296856243437648/unknown.png "Multipoint")
 
 
-### iv. Transmission Mode
-  >三種唔同 ge Data flow 模式
+### iv. Transmission Mode  
+>三種唔同 ge Data flow 模式
 
   1. Simplex (單一)
       - 淨係得單一 data 流向 e.g. keyboard
@@ -85,21 +82,21 @@
   3. Full-duplex (全雙向)
       - 兩個 nodes 可以同時傳輪同接收 data  
 
-### v. Topology
-  >Topology 係指 nodes 之間唔同 ge 連接方法，而 nodes 之間 ge relationship 又分為 **Peer-to-peer(p2p)** or **Primary-secondary**
-  >以下所有 nodes = devices
+### v. Topology  
+>Topology 係指 nodes 之間唔同 ge 連接方法，而 nodes 之間 ge relationship 又分為 **Peer-to-peer(p2p)** or **Primary-secondary**
+>以下所有 nodes = devices
   
 |                        |  Mesh  | Ring | Bus | Star |
 |:----------------------:|:------:|:----:|:---:|:----:|
 | Total No. of Cables    |n(n-1)/2|   n  |n + 1|   n  |
-|No. of Ports per device |  n - 1 |   2  |  1  |   1  |
-
+|No. of Ports per device |  n - 1 |   2  |  1  |   1  |  
+>*n = total number of nodes (devices)*
 
 
   1. Mesh Topology  
-  *Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，  
-  其他 devices 都仲可以正常咁 send and receive message.*  
-  ![Mesh](https://cdn.discordapp.com/attachments/684958583367925771/948852650252841010/unknown.png)    
+*Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，  
+其他 devices 都仲可以正常咁 send and receive message.*  
+![Mesh](https://cdn.discordapp.com/attachments/684958583367925771/948852650252841010/unknown.png)    
      - adv:
         - 唔會有 traffic problem
         - 一部機 down 左唔會影響到其他
@@ -133,8 +130,16 @@
       
   4. Ring Topology  
 *Ring Topology 係將 D devices 連到成個圈咁，D singal 係單方向咁係 devices 同 devices 之間傳輸 (靠 repeater)*  
-
-  5. Hybrid Topology
+![Ring](https://media.discordapp.net/attachments/684958583367925771/948875827351785472/unknown.png)  
+     - adv:
+       - 易安裝，易重裝
+     - dis:
+       - total ge devices 數受限
+       - 因為 **Unidirectional traffic** (單向傳輸) ge 特性，一部 devices down 左，成候 Ring 就死左  
+       
+  5. Hybrid Topology  
+*Hybrid Topology 係指由唔同 Topology 組成 ge Topology，無咩特別*  
   
-### vi. Protocols
+### vi. Protocols  
+>Protocols 
 -------------------------------------
