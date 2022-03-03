@@ -2,7 +2,7 @@
   
   
 ## Tabel of Content
-- [Ch1 Data Communication](https://github.com/JackTheCoconut/Notebook/blob/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#ch1-data-communication)
+- [Ch1 Data Communication](#ch1-data-communication)
 - [Ch2 ]
 - [Ch3 ]
   
@@ -11,12 +11,12 @@
     
 >Data Communications 係指兩部 devices 之間交換data 
   
-  1. [Commnication effectiveness](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#i-communication-effectiveness-%E9%80%9A%E8%A8%8A%E6%95%88%E7%8E%87)
-  2. [Networking](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#ii-networking)
-  3. [Type of connection](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#iii-type-of-connections)
-  4. [Transmission mode](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#iv-transmission-mode)
-  5. [Topology](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#v-topology)
-  6. [Protocols](https://github.com/JackTheCoconut/Notebook/edit/main/HKCC/Year2/Sem2/SEHH2238_ComuterNetworking.md#vi-protocols)
+  1. [Commnication effectiveness](#i-communication-effectiveness-通訊效率)
+  2. [Networking](#ii-networking)
+  3. [Type of connection](#iii-type-of-connections)
+  4. [Transmission mode](#iv-transmission-mode)
+  5. [Topology](#v-topology)
+  6. [Protocols](#vi-protocols)
 
     
 ### i. Communication effectiveness (通訊效率)    
@@ -87,10 +87,17 @@
 
 ### v. Topology
   >Topology 係指 nodes 之間唔同 ge 連接方法，而 nodes 之間 ge relationship 又分為 **Peer-to-peer(p2p)** or **Primary-secondary**
+  
+|                        |  Mesh  | Ring | Bus | Star |
+|:----------------------:|:------:|:----:|:---:|:----:|
+| Total No. of Cables    |n(n-1)/2|   n  |n + 1|   n  |
+|No. of Ports per device |  n - 1 |   2  |  1  |   1  |
+
+
 
   1. Mesh Topology  
   *Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，  
-  其他都可以正常咁 send and receive message.*  
+  其他 devices 都仲可以正常咁 send and receive message.*  
     - adv:
       - 唔會有 traffic problem
       - 一部機 down 左唔會影響到其他
@@ -98,9 +105,12 @@
       - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)
     - dis:
       - 好貴 ($$$)
-      - 要求 device ge port 有一定 ge 數量以上  
-  2. Star Topology  
-  *Star Toplology 係近代常用 ge 一種 Network 連接方法
+      - 要求 device ge port 有一定 ge 數量以上
+    
+      
+  2. Star Topology    
+*Star Toplology 係近代常用 ge 一種 Network 連接方法*
+      -   
       
   3. Bus Topology
   4. Ring Topology
