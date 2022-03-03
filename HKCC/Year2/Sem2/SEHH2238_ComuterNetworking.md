@@ -98,22 +98,25 @@
   1. Mesh Topology  
   *Mesh Topology 係最簡單粗暴 ge 一種做法，將所有 ge nodes 連埋一齊，咁當有一部 device down 左，  
   其他 devices 都仲可以正常咁 send and receive message.*  
+  ![Mesh](https://cdn.discordapp.com/attachments/684958583367925771/948852650252841010/unknown.png)    
     - adv:
       - 唔會有 traffic problem
       - 一部機 down 左唔會影響到其他
       - Privacy 同 security 有保障
-      - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)
+      - Easy fault identification and isolation(容易知道邊部機出左問題並加以處理)  
+      - 對 p2p transmission 嚟講 
     - dis:
       - 好貴 ($$$)
-      - 要求 device ge port 有一定 ge 數量以上
-    
+      - 要求 device ge port 有一定 ge 數量以上  
       
-  2. Star Topology    
-*Star Toplology 係近代常用 ge 一種 Network 連接方法*
-      -   
       
+  2. Star Topology  
+  *Star Toplology 係近代常用 ge 一種 Network 連接方法*
+     - adv:
+        - 
   3. Bus Topology
   4. Ring Topology
   5. Hybrid Topology
   
 ### vi. Protocols
+-------------------------------------
