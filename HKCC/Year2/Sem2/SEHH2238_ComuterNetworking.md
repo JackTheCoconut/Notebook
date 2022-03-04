@@ -141,19 +141,20 @@
 *Hybrid Topology 係指由唔同 Topology 組成 ge Topology，無咩特別*  
   
 ### vi. Protocols  
->Protocols 係一 set of rules  
-由四大組織所設立:  
+>Protocols 可以理解成 a set of rules ，大家都要follow喱一 set rule 去制定佢地 ge services   
+>確保大家可以 work together     
+哩一 set rules 由三大組織所設立:  
 - ISO  -- International Standards Orgagnization
 - ANSI -- American Natinoal Standards Institute
 - IEEE -- Institute of Electrical and Electronics Engineers  
 
 **Layering**  
->每一個 layer 只會專注係自己嗰 task 到
->Protocols 係 designed for specific layers  
+>
 
 **OSI Model**  
-> OSI Model 係由7層 Layer 所組成
-> 每一層 Layer 都會
+> OSI Model 係由7層 Layer 所組成  
+> 每一層 Layer 都會  
+
 |       |             |
 |:-----:|:-----------:|
 |Layer 7| Application |
