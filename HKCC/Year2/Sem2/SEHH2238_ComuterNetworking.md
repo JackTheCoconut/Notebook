@@ -6,7 +6,7 @@
 - [Ch2 ]
 - [Ch3 ]
   
-  
+----------------
 ## Ch1 Data Communication  
 >Data Communications 係指兩部 devices 之間交換data 
   
@@ -149,21 +149,60 @@
 - IEEE -- Institute of Electrical and Electronics Engineers  
 
 **Layering**  
->
+>每層 Layer 都係 a package of protocals
+>每層 Layer 都會有自己 ge service
+>但係佢地 rely on 上一層所 provide ge service 去工作
 
 **OSI Model**  
-> OSI Model 係由7層 Layer 所組成  
-> 每一層 Layer 都會  
+> OSI Model 係由 ISO 係1984年所定立，由7層 Layer 所組成  
+[**感謝大大無私奉獻!**](bilibili.com/video/BV1qJ411J7Tt/)  
 
 |       |             |
 |:-----:|:-----------:|
-|Layer 7| Application |
+|Layer 7| Application | 
 |Layer 6| Presentation|
 |Layer 5| Session     |
 |Layer 4| Transport   |
 |Layer 3| Netwrok     |
 |Layer 2| Data Link   |
 |Layer 1| Physical    |
+  
+- Application Layer  
+  > 我地要靠喱層 layer 去 access network resources
+  - 喱一層 Layer 包含平時我地用開 ge application 入面所用到 ge protocol (注意唔係講緊 application 本身)
+  - 用chrome去上網就係 HTTPs, HTTP
+  - Gmail 就係 SMTP, POP3, IMAP 
+  - upload/download 就 FTP 
+  
+    
+- Presentation Layer
+  > translate -> compress -> encrypt
+  - 喱層 Layer 係將我地睇得明 ge 文字 translate 做電腦 ge 文字 
+  - translate 完做電腦文字之後就會 compress 再 encrypt
+  - e.g SSL for 加密同解密  
+  
 
+- Session Layer (會話層)
+  > 幫你同其他電腦 or server 建立/管理/關閉一個會話
+  - 喱層 Layer 會做 Authentication, Authorization 同 session management 喱幾個動作
+  - Authentication 係驗証你 ge 身份
+  - Authorization 係授權你 access resources 
+  - Session management 係幫你 keep tracking 同管理唔同 data packets 去 ge location 
 
--------------------------------------
+- Transport Layer
+  -  
+  
+- Networking Layer
+  -
+
+- Data Link Layer
+  -
+
+- Physical Layer  
+  -
+  
+  
+
+---------------------
+## Ch2 Basic Communication Principles
+>
