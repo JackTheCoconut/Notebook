@@ -44,7 +44,33 @@
 > 諗到 AI 喱一樣 ge 人真係好 big brain
 > 早期 ge AI 因為 computing power ge 不足，一直都受到限制
 
-- Expert 
+- Expert systems  
+  >早期類似 AI 概念 ge 一個 system
+  - 由一大堆 if then statment 所組成
+  - 唔識進化
+  - 理解唔到新野
+  - 好難 maintain
 
+- Late 1980's
+  - Probabilistic reasoning (probability + statistic)
+  - Machine learning
+
+- Early 2000's
+  - Big Data
+
+- Early 2010's
+  - Deep Learning 
+
+### iii. Application of AI
+
+### iv. Limitation of AI
+> 盡管 AI 睇好似似萬能咁，但係其實 AI 都有唔擅長 ge 野
+> 語言博大精深
+- E.g. Language translation, story telling 
+- The rule of language often contradict itself
+- A single word can have various meaning 
+- New word being created constantly  
+
+### v. Intelligent Agents
 
  
