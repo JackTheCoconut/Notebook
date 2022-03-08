@@ -1,9 +1,9 @@
 # SEHH2238 Computer Networking
-  
+  >喱一科真係好悶 >:(
   
 ## Tabel of Content
 - [Ch1 Data Communication](#ch1-data-communication)
-- [Ch2 ]
+- [Ch2 Basic Communication Principles](#ch2-basic-communication-principles)
 - [Ch3 ]
   
 ----------------
