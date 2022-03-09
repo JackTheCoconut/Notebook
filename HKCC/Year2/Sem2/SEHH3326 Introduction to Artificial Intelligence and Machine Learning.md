@@ -123,10 +123,12 @@
   - agent 會保持住一種叫 internal state ge state
   - internal state 係由 Transition model 同 Sensor model 去作 update
     - Transition model 會話比 agent 知嗰環境係點變 (may or may not depend of agent's actions)
-    - Sensor model 會話比 agent 知嗰環境會點樣影響嗰知覺
+    - Sensor model 會話比 agent 知嗰環境會點樣影響嗰知覺 
     
 - Goal-based agents
   -  
+<img src="https://media.discordapp.net/attachments/684958583367925771/951025320620863498/unknown.png" width=50% height=50%>  
 
 - Utility-based agents  
   - 
+<img src="https://media.discordapp.net/attachments/684958583367925771/951025429525979156/unknown.png" width=50% height=50%>  
