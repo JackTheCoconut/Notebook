@@ -72,20 +72,22 @@
 - New word being created constantly  
 
 ### v. Intelligent Agents
-> 為左可以整到一個 Rational agent，我地需要一 D 部件去幫我地  
+> 一個 agent 係由 Architecture 同 agent program 所組成
+> 為左可以整到一個 Rational agent，我地需要一 D performance measur，一個 environment，再加上兩類 architecures
 - Performance measure
 - Environment
 - Actuators (執行)
 - Sensors  
   
-而當中 Environments 入面又有分唔同 types  
+*而當中 Environments 入面又有分唔同 types*  
 >為左方便去認，以下會以 player 代指 agent  
 
 - Fully vs Partially observable
   - 就**環境**而言，我地係咪知道哂所有資訊?  
   
 - Single-agent vs Multiagent
-  - 得一個 player? 定係仲有其他player?  
+  - 得一個 player? 定係仲有其他player?
+  - 雙方可以係 competitive or cooperative ge 關係  
 
 - Deterministic vs Nondeterministic 
   - 當 player 做出一個動作嗰時，會唔會知道嗰結果?  
@@ -98,7 +100,33 @@
   - Jason 講到一個例子：如果嗰 environment 係用電子鐘 ge 話，咁就係discrete，但係如果係用秒針一直喐 ge 嗰隻鐘(唔係一秒一秒跳嗰 D)就係 continuous  
 
 - Static vs Dynamic vs Semidynamic
-  - 係 static ge 環境入面，環境會等一到 player 做出一個動作先會改變
-  - 係 Dynamic ge 環境入面，環
+  - Static 指，環境會等到 player 做出一個動作之後先會改變
+  - Dynamic 指，環境係會係 player 諗緊嗰時都可以做出改變 (例如對手做左一個動作都計改變左嗰環境)
+  - Semidynamic 指，環境雖然唔係會 player 做出動作之前改變，但 player ge performance score 卻可以  
+
 - Known vs Unknown
- 
+  - 哩一項並唔關嗰 environment 事，而係關 player 本身
+  - Known enviroment 係指 player 知道會一個動作 ge outcome (or probability outcomes) 係咩
+  - Unknow environment 就係 player 知佢可以做咩，但唔知嗰 enviroment 會點變
+
+*除左關於 environment 之外，仲有關於 agent programs*
+> agent program 可以話係 Brain of agent
+> 最常見 ge 有以下四種  
+  
+- Simple reflex agents
+  > 一種淨係會 focus 係當下環境而作出決定 ge agents
+  - 靠 if then rules 去做決定  
+![simple-reflex-agents](https://media.discordapp.net/attachments/684958583367925771/951021882923175956/unknown.png)  
+
+- Model-based reflex agents
+  > 一種會 base on 當下 ge environment 同過住經驗去做決定 ge agents  
+  - agent 會保持住一種叫 internal state ge state
+  - internal state 係由 Transition model 同 Sensor model 去作 update
+    - Transition model 會話比 agent 知嗰環境係點變 (may or may not depend of agent's actions)
+    - Sensor model 會話比 agent 知嗰環境會點樣影響嗰知覺
+    
+- Goal-based agents
+  -  
+
+- Utility-based agents  
+  - 
