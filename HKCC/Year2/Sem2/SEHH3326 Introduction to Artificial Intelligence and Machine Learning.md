@@ -21,7 +21,7 @@
 >Computer Engineer 認為 AI 應該要可以 efficiently, quickly, cheaply 咁 achieve the goal (do the right things) (**rationality 理性**)  
 >但係大多數 ge AI researcher 都係注重係 result 多個 process  
   
-![meme_AI](https://i.imgflip.com/67v1zt.jpg)
+<img src="https://i.imgflip.com/67v1zt.jpg" width=40% height=50%>
 
 - Intelligence
   - 指識得 Learning (學習), Reasoning (推理), Understanding (理解) environment ge 野
@@ -116,7 +116,7 @@
 - Simple reflex agents
   > 一種淨係會 focus 係當下環境而作出決定 ge agents
   - 靠 if then rules 去做決定  
-![simple-reflex-agents](https://media.discordapp.net/attachments/684958583367925771/951021882923175956/unknown.png)  
+  <img src="https://media.discordapp.net/attachments/684958583367925771/951021882923175956/unknown.png" width=50% height=50%>  
 
 - Model-based reflex agents
   > 一種會 base on 當下 ge environment 同過住經驗去做決定 ge agents  
