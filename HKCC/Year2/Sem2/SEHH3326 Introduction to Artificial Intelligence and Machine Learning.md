@@ -72,5 +72,33 @@
 - New word being created constantly  
 
 ### v. Intelligent Agents
+> 為左可以整到一個 Rational agent，我地需要一 D 部件去幫我地  
+- Performance measure
+- Environment
+- Actuators (執行)
+- Sensors  
+  
+而當中 Environments 入面又有分唔同 types  
+>為左方便去認，以下會以 player 代指 agent  
 
+- Fully vs Partially observable
+  - 就**環境**而言，我地係咪知道哂所有資訊?  
+  
+- Single-agent vs Multiagent
+  - 得一個 player? 定係仲有其他player?  
+
+- Deterministic vs Nondeterministic 
+  - 當 player 做出一個動作嗰時，會唔會知道嗰結果?  
+
+- Episodic vs Sequential
+  - player 所做 ge 每一個 move 係獨立 ge? 定係因影響之後 ge move?  
+
+- Discrete vs Continuous
+  - 周圍 ge 環境，時間，規則同動作係一格一格咁跳，定係連續咁喐動?  
+  - Jason 講到一個例子：如果嗰 environment 係用電子鐘 ge 話，咁就係discrete，但係如果係用秒針一直喐 ge 嗰隻鐘(唔係一秒一秒跳嗰 D)就係 continuous  
+
+- Static vs Dynamic vs Semidynamic
+  - 係 static ge 環境入面，環境會等一到 player 做出一個動作先會改變
+  - 係 Dynamic ge 環境入面，環
+- Known vs Unknown
  
