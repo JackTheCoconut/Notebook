@@ -205,4 +205,9 @@
 
 ---------------------
 ## Ch2 Basic Communication Principles
->
+>根本就係physics
+  
+### Periodic Analog Singals
+>sine waves ge 集成體
+
+
